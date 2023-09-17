@@ -83,7 +83,7 @@ hr {
   width: 70%;
   height: auto; 
   display: block;
-  margin: auto;  /* Centraliza a imagem horizontalmente */
+  margin: auto; 
   border-radius: 20px;
 }
 
