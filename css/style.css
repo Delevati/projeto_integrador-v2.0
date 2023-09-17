@@ -23,8 +23,6 @@ a {
   color: #00e7f9;
 }
 
-
-
 hr {
   border-color: #aaa;
 }
@@ -78,12 +76,12 @@ hr {
 }
 
 .principal-box {
-  position: relative; /* Isso é necessário para o posicionamento absoluto de elementos filhos */
+  position: relative; 
 }
 
 .image-principal {
   width: 70%;
-  height: auto;  /* Mantém a proporção da imagem */
+  height: auto; 
   display: block;
   margin: auto;  /* Centraliza a imagem horizontalmente */
   border-radius: 20px;
@@ -98,7 +96,7 @@ hr {
   border: none;
   border-radius: 4px;
   background-color: #fff;
-  width: 500px;  /* Exemplo de largura fixa */
+  width: 500px;  
 }
 
 #busca {
@@ -130,7 +128,7 @@ hr {
 /* BOX EVENTOS */
 .principal-eventos {
   width: 70%;
-  margin-top: 40px; /* Aumenta o espaço entre principal-events e principal-box */
+  margin-top: 40px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -181,8 +179,8 @@ hr {
   grid-template-columns: repeat(4, 1fr);
   height: 180px;
   background: #000;
-  width: 85%; /* Faz com que o rodapé ocupe 80% da largura da página */
-  margin: 10px auto 0 auto; /* Adiciona uma margem superior de 10px e centraliza o rodapé */
+  width: 85%; 
+  margin: 10px auto 0 auto; 
 }
 
 .rodape-itens {
