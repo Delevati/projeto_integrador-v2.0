@@ -66,7 +66,7 @@ hr {
   padding: 8px;
 }
 
-/**/
+/* imagem e search*/
 
 .principal {
   margin-top: 5px ;
@@ -77,6 +77,7 @@ hr {
 
 .principal-box {
   position: relative; 
+  margin-top: 10px ;
 }
 
 .image-principal {
@@ -168,6 +169,116 @@ hr {
   text-align: center;
 }
 
+/* PAGINA MEUS EVENTOS */
+.eventos {
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventos h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.eventos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.evento-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  padding: 20px;
+  background-size: cover;    
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-blend-mode: multiply; 
+  background-color: rgba(0, 0, 0, 0.4); 
+  color: white;
+}
+
+.evento-card:hover {
+  transform: scale(1.05);
+}
+
+/* meus eventos */
+
+.evento-card h2 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.evento-card p {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.evento-card a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00e7f9;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.evento-card a:hover {
+  background-color: #00c5db;
+}
+
+.titulo-evento {
+  font-weight: bold; 
+  margin-bottom: 15px; 
+}
+
+.data-evento, .local-evento {
+  font-size: 0.9rem; 
+  color: #555; 
+  margin: 5px 0; 
+}
+
+.desc-evento {
+  margin-bottom: 20px;
+}
+
+.botao {
+  margin-top: 10px; 
+}
+
+/* PÁGINA SOBRE */
+.sobre {
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  padding: 50px 0;        
+}
+
+.sobre-content {
+  width: 70%;  
+  max-width: 800px; 
+  text-align: center; 
+}
+
+.sobre-content h2 {
+  font-size: 2rem;   
+  margin-bottom: 20px; 
+  color: #444; 
+}
+
+.sobre-content p {
+  font-size: 1rem; 
+  margin-bottom: 20px; 
+}
+
+
 
 /* RDOAPE */
 .linha-rodape {
@@ -197,4 +308,19 @@ hr {
 
 .rodape p {
   color: #aaa;
+  margin-bottom: 6px;
+  color: azure;
 }
+
+.rodape p:hover {
+  color: #00e7f9;
+}
+
+.rodape a:hover {
+  color: #00e7f9;
+}
+
+
+
+
+
