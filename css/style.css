@@ -39,14 +39,13 @@ hr {
 }
 
 .titulo {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .titulo:hover {
   color: #00e7f9;
 }
-
 
 .cabecalho {
   display: flex;
@@ -69,22 +68,22 @@ hr {
 /* imagem e search*/
 
 .principal {
-  margin-top: 5px ;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .principal-box {
-  position: relative; 
-  margin-top: 10px ;
+  position: relative;
+  margin-top: 10px;
 }
 
 .image-principal {
   width: 70%;
-  height: auto; 
+  height: auto;
   display: block;
-  margin: auto; 
+  margin: auto;
   border-radius: 20px;
 }
 
@@ -97,7 +96,7 @@ hr {
   border: none;
   border-radius: 4px;
   background-color: #fff;
-  width: 500px;  
+  width: 500px;
 }
 
 #busca {
@@ -124,7 +123,6 @@ hr {
 .botao-pesquisa:hover {
   background-color: #f1f1f1;
 }
-
 
 /* BOX EVENTOS */
 .principal-eventos {
@@ -196,11 +194,11 @@ hr {
   overflow: hidden;
   transition: transform 0.3s;
   padding: 20px;
-  background-size: cover;    
-  background-repeat: no-repeat; 
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  background-blend-mode: multiply; 
-  background-color: rgba(0, 0, 0, 0.4); 
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
 }
 
@@ -235,14 +233,15 @@ hr {
 }
 
 .titulo-evento {
-  font-weight: bold; 
-  margin-bottom: 15px; 
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-.data-evento, .local-evento {
-  font-size: 0.9rem; 
-  color: #555; 
-  margin: 5px 0; 
+.data-evento,
+.local-evento {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 5px 0;
 }
 
 .desc-evento {
@@ -250,35 +249,33 @@ hr {
 }
 
 .botao {
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 /* PÁGINA SOBRE */
 .sobre {
   display: flex;
-  justify-content: center; 
-  align-items: center;   
-  padding: 50px 0;        
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
 }
 
 .sobre-content {
-  width: 70%;  
-  max-width: 800px; 
-  text-align: center; 
+  width: 70%;
+  max-width: 800px;
+  text-align: center;
 }
 
 .sobre-content h2 {
-  font-size: 2rem;   
-  margin-bottom: 20px; 
-  color: #444; 
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #444;
 }
 
 .sobre-content p {
-  font-size: 1rem; 
-  margin-bottom: 20px; 
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
-
-
 
 /* RDOAPE */
 .linha-rodape {
@@ -290,8 +287,8 @@ hr {
   grid-template-columns: repeat(4, 1fr);
   height: 180px;
   background: #000;
-  width: 85%; 
-  margin: 10px auto 0 auto; 
+  width: 85%;
+  margin: 10px auto 0 auto;
 }
 
 .rodape-itens {
@@ -319,8 +316,3 @@ hr {
 .rodape a:hover {
   color: #00e7f9;
 }
-
-
-
-
-
