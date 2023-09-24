@@ -316,3 +316,10 @@ hr {
 .rodape a:hover {
   color: #00e7f9;
 }
+
+/*PÁGINA EVENTOS*/
+.cabecalho-pesquisa {
+  width: 500px;
+  height: 40px;
+  border-radius: 4px;
+}
