@@ -1,3 +1,5 @@
+
+/* API imagens aleatórias */
 document.addEventListener('DOMContentLoaded', function() {
 
   var cards = document.querySelectorAll('.evento-card');
@@ -9,3 +11,4 @@ document.addEventListener('DOMContentLoaded', function() {
       card.style.backgroundImage = 'url(' + imageUrl + ')';
   });
 });
+

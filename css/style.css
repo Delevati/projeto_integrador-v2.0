@@ -289,33 +289,6 @@ hr {
   outline: none; 
 }
 
-/* PÁGINA SOBRE */
-.sobre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 0;
-}
-
-.sobre-content {
-  width: 70%;
-  max-width: 800px;
-  text-align: center;
-}
-
-.sobre-content h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #444;
-}
-
-.sobre-content p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-
-
-
 /* PAGINA DE LOGIN */
 .login-container {
   width: 300px;
@@ -327,8 +300,8 @@ hr {
 }
 
 .login-container h2 {
-color: white;
-margin-bottom: 10px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .login-input-group {
@@ -348,6 +321,8 @@ margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
+  background-color: #444;
+  color: white;
 }
 
 .login-button-group {
@@ -382,6 +357,97 @@ margin-bottom: 10px;
 
 .login-options a:hover {
   color: black;
+}
+
+
+/* CADASTRO */
+.cadastro-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  border-radius: 8px;
+}
+
+.cadastro-container h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input-group input[type="text"], 
+.input-group input[type="email"], 
+.input-group input[type="password"], 
+.input-group input[type="tel"],
+.input-group input[type="date"],
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #444;
+  color: white;
+}
+
+.input-group select {
+  appearance: none;
+  background-color: #444;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.input-group button {
+  padding: 10px 20px;
+  background-color: #00e7f9;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* PÁGINA SOBRE */
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.sobre-content {
+  width: 70%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.sobre-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.sobre-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
 /* RDOAPE */
