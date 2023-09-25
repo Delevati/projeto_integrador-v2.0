@@ -7,34 +7,45 @@
     <title>Projeto Integrador - ADS Events</title>
 </head>
 <body>
+
     <header class="cabecalho">
         <a class="titulo" href="/index.html">ADS EVENTS</a>
         <nav class="nav">
           <ul class="menu">
-            <li class="cadastro"><a href="">Olá, Luryan Delevati!</a></li>
-            <li><a href="/login.html">Login</a></li>
-            <li><a href="/eventos.html">Eventos</a></li>
+            <li class="cadastro"><a href="">CADASTRE-SE</a></li>
           </ul>
         </nav>
       </header>
       <hr>
 
-
-    <section class="sobre">
-        <div class="sobre-content">
-            <h2>Sobre nós:</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto a distinctio temporibus perspiciatis nisi sunt reiciendis, commodi recusandae aliquam consequuntur vero officia odit, aut, quam quisquam quae delectus sed sequi!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quas maxime expedita illo labore id soluta possimus cum veniam quaerat omnis facere, ipsum reprehenderit autem libero dolorem nisi ducimus ex?</p>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/path/to/login" method="POST">
+            <div class="login-input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="login-input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="login-button-group">
+                <button onclick="location.href='/my_events.html'">Entrar</button>
+            </div>
+        </form>
+        <div class="login-options">
+            <a href="">Não tem cadastro? Faça já!</a>
+            <a href="">Esqueceu sua senha?</a>
         </div>
-    </section>
-          
+    </div> 
+              
       <hr class="linha-rodape">
       
       <footer class="rodape">
 
         <div class="rodape-itens">
             <h2>Ajuda</h2>
-            <a href="#sobre-url"><p>Sobre</p></a>
+            <a href="/sobre.html"><p>Sobre</p></a>
             <a href="#contato-url"><p>Contato</p></a>
         </div>
     
