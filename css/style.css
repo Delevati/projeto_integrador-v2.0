@@ -521,20 +521,25 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, 600px);
   gap: 15px;
-
   height: 500px;
   text-align: center;
 }
 
 .select-item-info {
-  border: 1px solid #fff;
+  background: #0f1116;
   display: grid;
+  border-radius: 4px;
+  padding: 40px;
+  text-align: start;
   place-content: start;
+  gap: 15px;
 }
 
-.select-item-titulo {
-  display: grid;
-  text-align: center;
+.select-item-desc,
+.select-item-data,
+.select-item- {
+  color: #aaa;
+  font-size: 16px;
 }
 
 .select-item-img {
@@ -544,5 +549,15 @@ hr {
 
 .select-item-img img {
   width: 600px;
+  height: 500px;
+  border-radius: 4px;
+}
+
+.select-item-reservar {
+  margin-top: 15px;
+  background: #00e7f9;
+  color: #000;
+  display: inline-block;
+  padding: 10px 15px;
   border-radius: 4px;
 }
