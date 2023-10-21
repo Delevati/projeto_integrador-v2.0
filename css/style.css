@@ -65,7 +65,7 @@ hr {
   padding: 8px;
 }
 
-/* imagem e search*/
+/* IMAGEM E SEARCH */
 
 .principal {
   margin-top: 5px;
@@ -147,7 +147,7 @@ hr {
   background: #000;
   border-radius: 4px;
   margin-bottom: 20px;
-}
+  }
 
 .titulo-evento {
   font-size: 18px;
@@ -206,7 +206,7 @@ hr {
   transform: scale(1.05);
 }
 
-/* meus eventos */
+/* MEUS EVENTOS */
 
 .evento-card h2 {
   font-size: 1.5rem;
@@ -250,6 +250,179 @@ hr {
 
 .botao {
   margin-top: 10px;
+}
+
+/*  EVENTOS */
+
+.search-box2 {
+  display: flex;               
+  border: 1px solid #ccc;          
+  border-radius: 4px;              
+  background-color: #f9f9f9;        
+  transition: box-shadow 0.3s ease; 
+}
+
+
+#busca2 {
+  flex-grow: 1;      
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;      
+  background: none;   
+  color: #666;       
+}
+
+.botao-pesquisa {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;   
+  cursor: pointer;   
+  background: none;   
+  border: none;       
+}
+
+.pesquisa-container:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#busca2:focus {
+  outline: none; 
+}
+
+/* PAGINA DE LOGIN */
+.login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  border-radius: 8px;
+}
+
+.login-container h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.login-input-group {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.login-input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.login-input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #444;
+  color: white;
+}
+
+.login-button-group {
+  text-align: center;
+}
+
+.login-button-group button {
+  padding: 10px 20px;
+  background-color: #00e7f9;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button-group button:hover {
+  background-color: black;
+  color: white;
+}
+
+.login-options a {
+  display: block;
+  text-align: center;
+  color: azure;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-options a:hover {
+  color: black;
+}
+
+
+/* CADASTRO */
+.cadastro-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  border-radius: 8px;
+}
+
+.cadastro-container h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input-group input[type="text"], 
+.input-group input[type="email"], 
+.input-group input[type="password"], 
+.input-group input[type="tel"],
+.input-group input[type="date"],
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #444;
+  color: white;
+}
+
+.input-group select {
+  appearance: none;
+  background-color: #444;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.input-group button {
+  padding: 10px 20px;
+  background-color: #00e7f9;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: black;
+  color: white;
 }
 
 /* PÁGINA SOBRE */
@@ -317,9 +490,38 @@ hr {
   color: #00e7f9;
 }
 
+<<<<<<< HEAD
 /*PÁGINA EVENTOS*/
 .cabecalho-pesquisa {
   width: 500px;
   height: 40px;
   border-radius: 4px;
 }
+=======
+
+/* MEDIAQUERIES */
+@media (max-width: 1850px) {
+  .principal-eventos {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+}
+
+@media (max-width: 1350px) {
+  .principal-eventos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 880px) {
+  .principal-eventos {
+    grid-template-columns: 1fr;
+    gap: 0.5%;
+  }
+  .evento-itens {
+    margin-bottom: 5px;
+  }
+}
+
+
+>>>>>>> c7b24a63e911ce8f8a22c5c422baab3519a726da
