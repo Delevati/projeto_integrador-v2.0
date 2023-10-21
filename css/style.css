@@ -526,6 +526,7 @@ hr {
 }
 
 .select-item-info {
+  font-family: monospace;
   background: #0f1116;
   display: grid;
   border-radius: 4px;
