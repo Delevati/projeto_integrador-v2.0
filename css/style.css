@@ -520,6 +520,7 @@ hr {
 .select-item {
   display: grid;
   grid-template-columns: repeat(2, 600px);
+  gap: 15px;
 
   height: 500px;
   text-align: center;
@@ -534,4 +535,14 @@ hr {
 .select-item-titulo {
   display: grid;
   text-align: center;
+}
+
+.select-item-img {
+  display: block;
+  max-width: 100%;
+}
+
+.select-item-img img {
+  width: 600px;
+  border-radius: 4px;
 }
