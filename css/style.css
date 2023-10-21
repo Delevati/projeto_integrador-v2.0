@@ -536,6 +536,9 @@ hr {
   gap: 15px;
 }
 
+.select-item-titulo {
+  font-size: 32px;
+}
 .select-item-desc,
 .select-item-data,
 .select-item- {
