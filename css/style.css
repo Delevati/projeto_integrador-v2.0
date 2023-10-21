@@ -147,7 +147,7 @@ hr {
   background: #000;
   border-radius: 4px;
   margin-bottom: 20px;
-  }
+}
 
 .titulo-evento {
   font-size: 18px;
@@ -255,30 +255,29 @@ hr {
 /*  EVENTOS */
 
 .search-box2 {
-  display: flex;               
-  border: 1px solid #ccc;          
-  border-radius: 4px;              
-  background-color: #f9f9f9;        
-  transition: box-shadow 0.3s ease; 
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
 }
 
-
 #busca2 {
-  flex-grow: 1;      
+  flex-grow: 1;
   padding: 10px 15px;
   font-size: 16px;
-  border: none;      
-  background: none;   
-  color: #666;       
+  border: none;
+  background: none;
+  color: #666;
 }
 
 .botao-pesquisa {
   display: flex;
   align-items: center;
-  padding: 0 15px;   
-  cursor: pointer;   
-  background: none;   
-  border: none;       
+  padding: 0 15px;
+  cursor: pointer;
+  background: none;
+  border: none;
 }
 
 .pesquisa-container:hover {
@@ -286,7 +285,7 @@ hr {
 }
 
 #busca2:focus {
-  outline: none; 
+  outline: none;
 }
 
 /* PAGINA DE LOGIN */
@@ -359,7 +358,6 @@ hr {
   color: black;
 }
 
-
 /* CADASTRO */
 .cadastro-container {
   width: 300px;
@@ -386,9 +384,9 @@ hr {
   font-weight: bold;
 }
 
-.input-group input[type="text"], 
-.input-group input[type="email"], 
-.input-group input[type="password"], 
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="password"],
 .input-group input[type="tel"],
 .input-group input[type="date"],
 .input-group select {
@@ -490,20 +488,10 @@ hr {
   color: #00e7f9;
 }
 
-<<<<<<< HEAD
-/*PÁGINA EVENTOS*/
-.cabecalho-pesquisa {
-  width: 500px;
-  height: 40px;
-  border-radius: 4px;
-}
-=======
-
 /* MEDIAQUERIES */
 @media (max-width: 1850px) {
   .principal-eventos {
     grid-template-columns: repeat(3, 1fr);
-
   }
 }
 
@@ -523,5 +511,27 @@ hr {
   }
 }
 
+.select-principal {
+  display: grid;
+  place-content: center;
+  margin-top: 30px;
+}
 
->>>>>>> c7b24a63e911ce8f8a22c5c422baab3519a726da
+.select-item {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+
+  height: 500px;
+  text-align: center;
+}
+
+.select-item-info {
+  border: 1px solid #fff;
+  display: grid;
+  place-content: start;
+}
+
+.select-item-titulo {
+  display: grid;
+  text-align: center;
+}
