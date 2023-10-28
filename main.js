@@ -26,5 +26,3 @@ function validarLogin() {
 
   return true;
 }
-
-id = "login-form";
