@@ -565,3 +565,22 @@ hr {
   padding: 10px 15px;
   border-radius: 4px;
 }
+
+/*Sobre*/
+.principal-sobre {
+  height: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sobre-conteudo {
+  display: grid;
+  gap: 10px;
+  width: 700px;
+  padding: 20px;
+  margin-left: 120px;
+}
+
+.sobre-conteudo p {
+  color: #aaa;
+}
