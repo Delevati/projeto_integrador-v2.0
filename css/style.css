@@ -584,3 +584,31 @@ hr {
 .sobre-conteudo p {
   color: #aaa;
 }
+
+/*Contato*/
+.principal-contato {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  place-content: start center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.contato-item {
+  height: 500px;
+  display: grid;
+  place-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  gap: 10px;
+}
+.contato-item {
+  height: 500px;
+  display: grid;
+  place-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  gap: 10px;
+}
+
+.contato-item p {
+  color: #aaa;
+}
