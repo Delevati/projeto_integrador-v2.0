@@ -625,7 +625,7 @@ width: auto;
   }
 }
 
-@media (max-width: 600px) and (min-width: 481px) {
+@media (max-width: 600px) and (min-width: 501px) {
   .cabecalho .menu li:not(.cadastro):not(:nth-child(2)) {
     display: none; 
 }
@@ -641,10 +641,17 @@ width: auto;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .cabecalho .menu li:not(.cadastro):not(:nth-child(2)) {
     display: none; 
 }
+  .principal{
+  overflow: auto;
+}
+.principal::-webkit-scrollbar {
+  display: none;
+}
+  
   .principal-eventos {
     grid-template-columns: 1fr;
     gap: 0.5%;
