@@ -591,25 +591,50 @@ hr {
   color: #aaa;
 }
 
-/* MEDIAQUERIES */
-@media (max-width: 1850px) {
+/* MEDIAS QUERIE */
+@media (max-width: 1920px) and (min-width: 1281px) {
   .principal-eventos {
     grid-template-columns: repeat(3, 1fr);
   }
+  #busca {
+    width: 50%;
+    max-width: 400px;
+    margin: auto;
+  }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1280px) and (min-width: 871px) {
   .principal-eventos {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 880px) {
+ /* AQUI COMEÇA O PROBLEMA DA #BUSCA */
+@media (max-width: 870px) and (min-width: 601px) {
+  .principal-eventos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .image-principal {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 481px) {
   .principal-eventos {
     grid-template-columns: 1fr;
     gap: 0.5%;
   }
-  .evento-itens {
-    margin-bottom: 5px;
+  .image-principal {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .principal-eventos {
+    grid-template-columns: 1fr;
+    gap: 0.5%;
+  }
+  .image-principal {
+    display: none;
   }
 }
