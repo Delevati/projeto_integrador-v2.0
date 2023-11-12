@@ -565,3 +565,50 @@ hr {
   padding: 10px 15px;
   border-radius: 4px;
 }
+
+/*Sobre*/
+.principal-sobre {
+  height: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sobre-conteudo {
+  display: grid;
+  gap: 10px;
+  width: 700px;
+  padding: 20px;
+  margin-left: 120px;
+}
+
+.sobre-conteudo p {
+  color: #aaa;
+}
+
+/*Contato*/
+.principal-contato {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  place-content: start center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.contato-item {
+  height: 500px;
+  display: grid;
+  place-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  gap: 10px;
+}
+.contato-item {
+  height: 500px;
+  display: grid;
+  place-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  gap: 10px;
+}
+
+.contato-item p {
+  color: #aaa;
+}
