@@ -607,11 +607,25 @@ hr {
   .principal-eventos {
     grid-template-columns: repeat(2, 1fr);
   }
+  /* Pagina Select-Event */
+  .select-principal {
+    width: auto;
+  }
+  .select-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+.select-item-img img {
+    max-width: 100%;
+    height: auto;
+}
 }
 
  /* AQUI COMEÇA O PROBLEMA DA #BUSCA */
 @media (max-width: 873px) and (min-width: 601px) {
-  .cabecalho .menu li:not(.cadastro):not(:nth-child(2)) {
+  .cabecalho .menu li:not(.cadastro):not(:nth-child(2)) { /* Tira um dos itens da pagina cadastro, item eventos dentro da div cadastro. */
     display: none; 
 }
 .principal{ /* para evitar sobreposição com o rodapé */
@@ -620,15 +634,30 @@ hr {
 .principal::-webkit-scrollbar { /* Hide na scroll bar, tornando o overflow imperceptível */
   display: none;
 }    
+/* BOX DE EVENTO - CADA BOX DO GRID */
   .principal-eventos {
     grid-template-columns: repeat(1, 1fr);
   }
-  .evento-itens{
-width: auto;
+    .evento-itens{
+  width: auto;
   }
   .image-principal {
     display: none;
   }
+/* Pagina Select-Event */
+  .select-principal {
+    width: auto;
+  }
+  .select-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+.select-item-img img {
+    max-width: 100%;
+    height: auto;
+}
 }
 
 @media (max-width: 600px) and (min-width: 501px) {
@@ -641,6 +670,7 @@ width: auto;
   .principal::-webkit-scrollbar { /* Hide na scroll bar, tornando o overflow imperceptível */
     display: none;
   }    
+  /* BOX DE EVENTO - CADA BOX DO GRID */
   .principal-eventos {
     grid-template-columns: 1fr;
     gap: 0.5%;
@@ -651,6 +681,20 @@ width: auto;
   .image-principal {
     display: none;
   }
+  /* Pagina Select-Event */
+  .select-principal {
+    width: auto;
+  }
+  .select-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+.select-item-img img {
+    max-width: 100%;
+    height: auto;
+}
 }
 
 @media (max-width: 500px) {
@@ -663,6 +707,7 @@ width: auto;
   .principal::-webkit-scrollbar { /* Hide na scroll bar, tornando o overflow imperceptível */
     display: none;
   }    
+  /* BOX DE EVENTO - CADA BOX DO GRID */
   .principal-eventos {
     grid-template-columns: 1fr;
     gap: 0.5%;
@@ -673,4 +718,18 @@ width: auto;
   .image-principal {
     display: none;
   }
+  /* Pagina Select-Event */
+  .select-principal {
+    width: auto;
+  }
+  .select-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+.select-item-img img {
+    max-width: 100%;
+    height: auto;
+}
 }
