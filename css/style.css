@@ -695,6 +695,12 @@ hr {
     max-width: 100%;
     height: auto;
 }
+/* RODA PÉ */
+.rodape {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: auto; 
+}
 }
 
 @media (max-width: 500px) {
@@ -731,5 +737,11 @@ hr {
 .select-item-img img {
     max-width: 100%;
     height: auto;
+}
+/* RODA PÉ */
+.rodape {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: auto; 
 }
 }
